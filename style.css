@@ -1,5 +1,5 @@
 @keyframes example {
-from{background-color:yellow; width:200%;}
+from{background-color:yellow; width:50%;}
 to{background-color:red; width:100%;}
 }
 
