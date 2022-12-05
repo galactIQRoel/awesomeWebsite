@@ -1,10 +1,17 @@
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
 
 footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-image: linear-gradient(blue, aqua);
+  background-color: red;
   color: white;
   text-align: center;
+  animation-name: example;
+  animation-duration: 4s;
 }
