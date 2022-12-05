@@ -1,9 +1,6 @@
 @keyframes example {
-  0%   {background-color:red; left:0px; bottom: 0;}
-  25%  {background-color:yellow; left:200px; bottom:0px;}
-  50%  {background-color:blue; left:200px; bottom:100px;}
-  75%  {background-color:green; left:0px; bottom:100px;}
-  100% {background-color:red; left:0px; bottom:0px;}
+from{background-color:yellow; width:200%;}
+to{background-color:red; width:100%;}
 }
 
 
